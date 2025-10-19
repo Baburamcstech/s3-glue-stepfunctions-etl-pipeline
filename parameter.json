@@ -1,0 +1,38 @@
+[
+  {
+    "ParameterKey": "pS3BucketName",
+    "ParameterValue": "unique-bucket-name-dummy-2025"
+  },
+  {
+    "ParameterKey": "pSourceFolder",
+    "ParameterValue": "source"
+  },
+  {
+    "ParameterKey": "pStageFolder",
+    "ParameterValue": "stage"
+  },
+  {
+    "ParameterKey": "pTransformFolder",
+    "ParameterValue": "transform"
+  },
+  {
+    "ParameterKey": "pErrorFolder",
+    "ParameterValue": "error"
+  },
+  {
+    "ParameterKey": "pArchiveFolder",
+    "ParameterValue": "archive"
+  },
+  {
+    "ParameterKey": "pEmailforNotification",
+    "ParameterValue": "valid-email@gmail.com"
+  },
+  {
+    "ParameterKey": "pPrefix",
+    "ParameterValue": "demo"
+  },
+  {
+    "ParameterKey": "pDatasetSchema",
+    "ParameterValue": "{\"Date\":{\"type\": \"datetime\", \"format\": \"%m/%d/%Y\" },\"Description\":{\"type\": \"string\"},\"Deposits\":{\"type\": \"float\"},\"Withdrawls\":{\"type\": \"float\"},\"Balance\":{\"type\": \"float\"}}"
+  }
+]
