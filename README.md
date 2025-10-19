@@ -1,8 +1,7 @@
-<<<<<<< HEAD
-# s3-glue-stepfunctions-etl
+## s3-glue-stepfunctions-etl
 A serverless ETL pipeline using AWS S3, Glue, Lambda, and Step Functions. Automates data ingestion, validation, transformation, and orchestration with infrastructure-as-code and modular Lambda functions.
 =======
-# Serverless ETL Pipeline Orchestrated Using AWS Step Functions
+## Serverless ETL Pipeline Orchestrated Using AWS Step Functions
 
 
 This pattern explain how to build a serverless  ETL pipeline to validate, transform, compress, 
@@ -15,7 +14,7 @@ partition the dataset with year/month/day  and store in a transformed folder for
 
 ---
 
-## Prerequisites 
+### Prerequisites 
 
 * An active AWS account with programmatic access
 * AWS CLI with AWS account configuration, so that you can create AWS resources by deploying CloudFormation  stack
@@ -27,7 +26,7 @@ partition the dataset with year/month/day  and store in a transformed folder for
 
 
 
-## Architecture
+### Architecture
 
 
 <img src="images/ETL_Orchestration.jpg">
